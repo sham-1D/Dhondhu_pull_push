@@ -12,3 +12,8 @@ resource "azurerm_resource_group" "rg-star" {
   name     = "rg-star"
   location = "centralindia"
 }
+
+resource "azurerm_resource_group" "rg-fire" {
+  name     = "rg-fire"
+  location = "westus"
+}
