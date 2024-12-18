@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "rg-sarvesh" {
   location = "Westus"
 }
 
-resource "azurerm_resource_group" "rg-agni" {
-  name     = "rg-agni"
-  location = "Westus"
+resource "azurerm_resource_group" "rg-star" {
+  name     = "rg-star"
+  location = "centralindia"
 }
