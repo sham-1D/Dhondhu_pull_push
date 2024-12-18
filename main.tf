@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "rg-dhondhu" {
 
 resource "azurerm_resource_group" "rg-sarvesh" {
   name     = "rg-sarvesh"
-  location = "Westus"
+  location = "eastus"
 }
 
 resource "azurerm_resource_group" "rg-star" {
